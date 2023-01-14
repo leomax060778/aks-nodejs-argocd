@@ -109,3 +109,4 @@ workflows:
           resource-group: $RESOURCE_GROUP
           requires:
             - bump-docker-tag-kustomize
+            
