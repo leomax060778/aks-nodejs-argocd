@@ -12,4 +12,8 @@ spec:
     repoURL: "https://github.com/leomax060778/aks-nodejs-argocd"
     targetRevision: HEAD
   project: default
-  syncPolicy: {}
+  # for manual sync, just set syncPolicy: {}
+  syncPolicy:
+    automated:
+      prune: false
+      selfHeal: false
