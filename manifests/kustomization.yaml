@@ -7,4 +7,4 @@ resources:
 images:
 - name: aks-nodejs-argocd
   newName: leonardohildt/aks-nodejs-argocd
-  newTag: 5913a37be05341bca04ff1fd640ca21ee4326a63
+  newTag: 6abcbe2dde5f4fa79841e09a3eaffe6b4eaac326
