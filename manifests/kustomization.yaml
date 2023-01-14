@@ -1,0 +1,6 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+images:
+- name: aks-nodejs-argocd
+  newName: leonardohildt/aks-nodejs-argocd
+  newTag: f8b58c184d1e6ed0314d64d9c3b12a5cc48775b9
