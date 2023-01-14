@@ -3,4 +3,4 @@ kind: Kustomization
 images:
 - name: aks-nodejs-argocd
   newName: leonardohildt/aks-nodejs-argocd
-  newTag: 3ab70d18e955b6d62c4acbd28a99c2cc2bfee265
+  newTag: 856291444684255da6674e18fb6bdcc0fcd6e6f3
